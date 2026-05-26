@@ -41,11 +41,11 @@ This project helps users manage their daily expenses efficiently by tracking spe
 * Select date
 * Save records
 
-<img width="720" height="1600" alt="WhatsApp Image 2026-05-26 at 11 53 26 AM" src="https://github.com/user-attachments/assets/504fd60b-8e62-42a7-b2c2-ac410f590f50" />
-<img width="720" height="1600" alt="WhatsApp Image 2026-05-26 at 11 53 50 AM" src="https://github.com/user-attachments/assets/57adad2d-c61b-4897-8b70-cd40ea09444e" />
-<img width="720" height="1600" alt="WhatsApp Image 2026-05-26 at 11 53 27 AM" src="https://github.com/user-attachments/assets/4d64bb3f-64d5-4e53-95a3-b99840c8a0e8" />
-<img width="720" height="1600" alt="WhatsApp Image 2026-05-26 at 11 53 27 AM (1)" src="https://github.com/user-attachments/assets/482207c5-47e7-4e89-b737-8a3f92afb191" />
-<img width="720" height="1600" alt="WhatsApp Image 2026-05-26 at 11 53 27 AM (2)" src="https://github.com/user-attachments/assets/088a71d6-758d-418f-a587-be73a116d1e8" />
+<img width="300" height="700" alt="WhatsApp Image 2026-05-26 at 11 53 26 AM" src="https://github.com/user-attachments/assets/504fd60b-8e62-42a7-b2c2-ac410f590f50" />
+<img width="300" height="700" alt="WhatsApp Image 2026-05-26 at 11 53 50 AM" src="https://github.com/user-attachments/assets/57adad2d-c61b-4897-8b70-cd40ea09444e" />
+<img width="300" height="700" alt="WhatsApp Image 2026-05-26 at 11 53 27 AM" src="https://github.com/user-attachments/assets/4d64bb3f-64d5-4e53-95a3-b99840c8a0e8" />
+<img width="300" height="700" alt="WhatsApp Image 2026-05-26 at 11 53 27 AM (1)" src="https://github.com/user-attachments/assets/482207c5-47e7-4e89-b737-8a3f92afb191" />
+<img width="300" height="700" alt="WhatsApp Image 2026-05-26 at 11 53 27 AM (2)" src="https://github.com/user-attachments/assets/088a71d6-758d-418f-a587-be73a116d1e8" />
 
 
 ## Expense List Screen
@@ -54,8 +54,8 @@ This project helps users manage their daily expenses efficiently by tracking spe
 * Total amount display
 * Long press to delete expense
 
-<img width="720" height="1600" alt="WhatsApp Image 2026-05-26 at 11 53 28 AM" src="https://github.com/user-attachments/assets/81c2789a-2d8f-45b2-8ca7-cae3982ba07a" />
-<img width="720" height="1600" alt="WhatsApp Image 2026-05-26 at 11 53 29 AM" src="https://github.com/user-attachments/assets/90eba23e-4fed-41f1-9547-bc17564249a3" />
+<img width="300" height="700" alt="WhatsApp Image 2026-05-26 at 11 53 28 AM" src="https://github.com/user-attachments/assets/81c2789a-2d8f-45b2-8ca7-cae3982ba07a" />
+<img width="300" height="700" alt="WhatsApp Image 2026-05-26 at 11 53 29 AM" src="https://github.com/user-attachments/assets/90eba23e-4fed-41f1-9547-bc17564249a3" />
 
 ---
 
