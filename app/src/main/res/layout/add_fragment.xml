@@ -1,0 +1,302 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEF4FF"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:orientation="vertical"
+            android:padding="28dp"
+            android:background="#2563EB">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Expense Manager 💰"
+                android:textSize="34sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="40dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Track your daily spending easily and beautifully"
+                android:textSize="16sp"
+                android:textColor="#DDEAFE"
+                android:layout_marginTop="8dp"/>
+
+        </LinearLayout>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-40dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="24dp"
+            app:cardCornerRadius="28dp"
+            app:cardElevation="12dp"
+            app:cardBackgroundColor="#FFFFFF">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="28dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Add Expense"
+                    android:textSize="26sp"
+                    android:textStyle="bold"
+                    android:textColor="#0F172A"
+                    android:layout_marginBottom="6dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fill in your expense details below"
+                    android:textSize="14sp"
+                    android:textColor="#64748B"
+                    android:layout_marginBottom="28dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Expense Title"
+                    android:textStyle="bold"
+                    android:textColor="#334155"
+                    android:textSize="15sp"
+                    android:layout_marginBottom="6dp"/>
+
+                <EditText
+                    android:id="@+id/EtTitle"
+                android:layout_width="match_parent"
+                    android:layout_height="58dp"
+                    android:hint="Eg. Grocery Shopping"
+                    android:textColor="#000000"
+                    android:textColorHint="#94A3B8"
+                    android:textSize="16sp"
+                    android:padding="16dp"
+                    android:backgroundTint="#2563EB"
+                    android:inputType="text"
+                    android:layout_marginBottom="22dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Amount"
+                    android:textStyle="bold"
+                    android:textColor="#334155"
+                    android:textSize="15sp"
+                    android:layout_marginBottom="6dp"/>
+
+                <EditText
+                     android:id="@+id/EtAmount"
+                android:layout_width="match_parent"
+                    android:layout_height="58dp"
+                    android:hint="Enter Amount"
+                    android:inputType="numberDecimal"
+                    android:textColor="#000000"
+                    android:textColorHint="#94A3B8"
+                    android:textSize="16sp"
+                    android:padding="16dp"
+                    android:backgroundTint="#2563EB"
+                    android:drawableStart="@android:drawable/ic_menu_info_details"
+                    android:drawablePadding="10dp"
+                    android:layout_marginBottom="22dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Category"
+                    android:textStyle="bold"
+                    android:textColor="#334155"
+                    android:textSize="15sp"
+                    android:layout_marginBottom="6dp"/>
+
+                <EditText
+                    android:id="@+id/EtCategory"
+                    android:layout_width="match_parent"
+                    android:layout_height="58dp"
+                    android:hint="Eg. Shopping"
+                    android:textColor="#000000"
+                    android:textColorHint="#94A3B8"
+                    android:textSize="16sp"
+                    android:padding="16dp"
+                    android:backgroundTint="#2563EB"
+                    android:inputType="text"
+                    android:layout_marginBottom="22dp"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Expense Date"
+                    android:textStyle="bold"
+                    android:textColor="#334155"
+                    android:textSize="15sp"
+                    android:layout_marginBottom="6dp"/>
+
+                <EditText
+                    android:id="@+id/EtDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="58dp"
+                    android:hint="Select Date"
+                    android:textColor="#000000"
+                    android:textColorHint="#94A3B8"
+                    android:textSize="16sp"
+                    android:padding="16dp"
+                    android:backgroundTint="#2563EB"
+                    android:focusable="false"
+                    android:clickable="true"
+                    android:drawableEnd="@android:drawable/ic_menu_my_calendar"
+                    android:layout_marginBottom="34dp"/>
+
+
+                <Button
+                    android:id="@+id/save"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="Save Expense"
+                    android:textAllCaps="false"
+                    android:textSize="19sp"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:backgroundTint="#2563EB"/>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    tools:context=".AddFragment"-->
+<!--    android:orientation="vertical"-->
+<!--    android:gravity="center"-->
+<!--    android:padding="24dp"-->
+<!--    android:background="#EEF4FF">-->
+
+<!--    <androidx.cardview.widget.CardView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:cardCornerRadius="24dp"-->
+<!--        app:cardElevation="10dp"-->
+<!--        app:cardBackgroundColor="#FFFFFF">-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="vertical"-->
+<!--            android:padding="30dp">-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Expense Details "-->
+<!--                android:textSize="32sp"-->
+<!--                android:textStyle="bold"-->
+<!--                android:textColor="#1E3A8A"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:layout_marginBottom="10dp"/>-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Add your daily expense information"-->
+<!--                android:textSize="15sp"-->
+<!--                android:textColor="#64748B"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:layout_marginBottom="30dp"/>-->
+
+
+<!--            <EditText-->
+<!--                android:id="@+id/EtTitle"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="55dp"-->
+<!--                android:hint="Expense Title"-->
+<!--                android:textColor="#000000"-->
+<!--                android:textColorHint="#94A3B8"-->
+<!--                android:padding="14dp"-->
+<!--                android:textSize="16sp"-->
+<!--                android:backgroundTint="#2563EB"-->
+<!--                android:inputType="text"-->
+<!--                android:layout_marginBottom="18dp"/>-->
+
+
+<!--            <EditText-->
+<!--                android:id="@+id/EtAmount"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="55dp"-->
+<!--                android:hint="Enter Amount"-->
+<!--                android:inputType="numberDecimal"-->
+<!--                android:textColor="#000000"-->
+<!--                android:textColorHint="#94A3B8"-->
+<!--                android:padding="14dp"-->
+<!--                android:textSize="16sp"-->
+<!--                android:backgroundTint="#2563EB"-->
+<!--                android:layout_marginBottom="18dp"/>-->
+
+
+<!--            <EditText-->
+<!--                android:id="@+id/EtCategory"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="55dp"-->
+<!--                android:hint="Enter Amount"-->
+<!--                android:textColor="#000000"-->
+<!--                android:textColorHint="#94A3B8"-->
+<!--                android:padding="14dp"-->
+<!--                android:textSize="16sp"-->
+<!--                android:inputType="text"-->
+<!--                android:backgroundTint="#2563EB"-->
+<!--                android:layout_marginBottom="18dp"/>-->
+
+
+<!--            <EditText-->
+<!--                android:id="@+id/EtDate"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="55dp"-->
+<!--                android:hint="Select Date"-->
+<!--                android:textColor="#000000"-->
+<!--                android:textColorHint="#94A3B8"-->
+<!--                android:padding="14dp"-->
+<!--                android:textSize="16sp"-->
+<!--                android:backgroundTint="#2563EB"-->
+<!--                android:focusable="false"-->
+<!--                android:clickable="true"-->
+<!--                android:drawableEnd="@android:drawable/ic_menu_my_calendar"-->
+<!--                android:layout_marginBottom="30dp"/>-->
+
+
+<!--            <Button-->
+<!--                android:id="@+id/save"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="58dp"-->
+<!--                android:text="Save Expense"-->
+<!--                android:textAllCaps="false"-->
+<!--                android:textStyle="bold"-->
+<!--                android:textSize="18sp"-->
+<!--                android:textColor="#FFFFFF"-->
+<!--                android:backgroundTint="#2563EB"/>-->
+
+<!--        </LinearLayout>-->
+<!--    </androidx.cardview.widget.CardView>-->
+<!--</LinearLayout>-->
